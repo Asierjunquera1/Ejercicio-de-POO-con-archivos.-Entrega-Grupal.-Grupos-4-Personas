@@ -10,7 +10,7 @@ class Aprobado:
         self.parcial1 = parcial1
         self.parcial2 = parcial2
 
-        def alumno_aprobado(self):
+        def aprobado(self):
             if self.nota_final >= 5 and self.asistencia >= 75 and self.parcial1 >= 4 and self.parcial2 >= 4 and self.practicas >= 4:
                 self.aprobado = True
                 print("El alumno está aprobado")
