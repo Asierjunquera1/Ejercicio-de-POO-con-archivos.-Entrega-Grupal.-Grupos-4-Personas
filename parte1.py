@@ -6,7 +6,7 @@ def calificaciones():
             linea=linea.rstrip()
             lista1=linea.split(";")
             lista.append(lista1)
-        
+
         lista_diccionarios=[]
         for i in range(1, len(lista)):
             diccionario={}
@@ -15,8 +15,8 @@ def calificaciones():
             lista_diccionarios.append(diccionario)
     return lista_diccionarios
 
-            
 
 
 
-print(calificaciones())  
+
+print(calificaciones())
